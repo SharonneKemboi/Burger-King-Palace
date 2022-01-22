@@ -26,12 +26,10 @@ display:inline;
 position:relative;
 
 }
-.top-nav ul li img{
-    position:relative;
-}
 .logo{
    font-family:'Courier New', cursive;
    font-size: 10px;
+   
 }
 .logo-text{
    color:#F6B400;

@@ -5,66 +5,70 @@ html{
        
    }
 header{ 
-   background-image: linear-gradient(125deg, #ffffff 50%, #f6b400 0%);
-   background-color: #F6B400;
+   background-image: linear-gradient(133deg, #ffffff 50%, #f6b400 0%);
 } 
 
 #nav{
    display:flex;
-   padding:2% 6%;
+   padding:1% 5%;
    justify-content: space-between;
    align-items: center;
 }
-.topnav{
+.top-nav{
 flex:10px;
 text-align: right;
 }
-.topnav ul li{
-list-style: none;
-padding:10px 20px;
+.top-nav ul li{
+list-style-type: style none;
+padding:10px 30px;
 text-align:right;
-display:inline-block;
-position:relative
+display:inline;
+position:relative;
+
+}
+.top-nav ul li img{
+    position:relative;
 }
 .logo{
-   font-family: 'Niccone', cursive;
-   font-size: 15px;
+   font-family:'Courier New', cursive;
+   font-size: 10px;
 }
 .logo-text{
    color:#F6B400;
-   font-size: 15px;
+   font-size: 10px;
 }
-.topnav ul li a{
+.top-nav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
+    display: inline;
+    position: relative;
 }
-.topnav-page:after{
+.top-nav-page:after{
     content:'';
-    width: 100%;
-    height:4px;
+    width: 20%;
+    height: 2px;
     background: #f44336;
-    display: block;
+    display:inline-flex;
     margin: auto;
 }
 #brief{
-    display: flex;
+    display:flexbox;
     justify-content: space-around;
 }
 .burgs-image img{
-    width: 600px;
-    height: 600px;
+    width: 650px;
+    height: 650px;
 }
 .brief-info{
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
+    margin-left: 20px;
+    justify-content:space-around;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
 }
 
 .brief-info h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .brief-info p{ 
@@ -78,5 +82,4 @@ position:relative
     background-color:  #F6B400;
     border-radius: 15px 15px 0px 15px;
     border-color: transparent;
-    color: whitesmoke;
 }

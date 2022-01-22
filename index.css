@@ -219,40 +219,23 @@ html{
       font-size: 50px;
       margin-top: 150px;
   }
-  .dots-wrapper{
-    flex:10px;
-    text-align: right;
-    }
-  .dots-wrapper{
-      font-size:60px;
-      padding: 30px;
-      display:inline-block;
-      justify-content: right;
-      align-items: center;
-  }
+  .dots{
+    font-size:150px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot{
+    margin-left: 100px;
+}
   
-    
-    
-    .dots-wrapper ul li a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-    }
-      .dot-lists ul li{
-        list-style-position: inside;
-        padding:10px 30px;
-        text-align:right;
-        display:inline;
-        position: absolute;
-        
-        
-  }
-  
-  #communication{
+  #download{
       background-color:#F6B400; 
       height: 925px;
   }
-  .super{
+  .advert{
       display: flex;
       margin-top: 15px;
       float: right;
@@ -266,21 +249,21 @@ html{
       position: relative; top:500px;
       justify-content: space-around;
   }
-  #communication h1{
+  #download h1{
       font-size:45px;
       position: relative; top:400px;
       margin-left: 30px;
       font-weight: bolder;
       font-family: inherit;
   }
-  .banner-one{
+  .first-ad{
       position: relative; right:30px;
       border-radius: 10% 10% 10% 10%;
   }
-  .banner-two{
+  .second-ad{
       border-radius: 10% 10% 10% 10%;
   }
-  #wipes{
+  #visit{
   
       background-color: #F7FDF6;
       display: flex;
@@ -294,7 +277,7 @@ html{
       list-style-type: none;
   
   }
-  .news{
+  .bulleting{
       display: flex;
       flex-direction: column;
     
@@ -310,14 +293,14 @@ html{
       background-color: #f6b400;
       border: transparent;
   }
-  #wipes h1{
+  #visit h1{
       margin-left: 95px;
       margin-top: 10px;
   }
-  #wipes a{
+  #visit a{
       position: relative; top:80px;
   }
-  .classy{
+  .appealing{
       font-weight: bolder;
       font-size: 40px;
   }
@@ -327,12 +310,12 @@ html{
       padding:7% 8% ;
       margin-bottom: 38%;
   }
-  #end{
+  #final{
     display: flex;
     justify-content: space-evenly;
   }
   
-  #end ul li{
+  #final ul li{
       list-style-type: none;
       text-align:center;
       padding: 5px;
@@ -342,7 +325,7 @@ html{
   .developer{
       font-size: 20px;
       font-weight: bolder;
-      font-style: italic;
+      font-style: normal;
    }
   
   

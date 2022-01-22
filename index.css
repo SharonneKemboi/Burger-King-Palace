@@ -12,3 +12,8 @@ html{
 button{
     background-color: #f6b400;
 }
+.tab-link{
+    display:inline-flex;
+    align-items: center;
+    justify-items: space-between;
+}

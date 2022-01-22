@@ -66,10 +66,10 @@ html{
   .text-box h1{
       font-size: 50px;
   }
-  
   .text-box p{ 
       font-family: 'Poppins', sans-serif;
-      font-size: 25px;
+      font-size: 20px;
+    
   }
   .text-box button{
       margin-top: 30px;
@@ -80,7 +80,7 @@ html{
       border-color: transparent;
       color: whitesmoke;
   }
-  .description{
+  .services{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -88,21 +88,30 @@ html{
       background-color: #F7FDF6;
       margin-bottom: 20px;
   }
-  .delivery{
+  .shipping{
       border-style: solid;
       border-color: rgb(216, 120, 51);
-      padding: 90px 10px 30px 10px;
-      margin: 50px 30px;
+      padding: 70px;
+      margin: 100px 60px;
       border-radius: 15px;
       text-align: center;
   }  
   .quality{
       border-style: solid;
       border-color:rgb(216, 120, 51) ;
-      padding-top: 80px;
+      padding-top: 70px;
       margin: 100px 60px;
       border-radius: 15px;
       text-align: center;
+  }
+  .taste{
+    border-style: solid;
+    border-color:rgb(216, 120, 51) ;
+    padding-top: 70px;
+    margin: 100px 60px;
+    border-radius: 15px;
+    text-align: center;
+
   }
   .card-title{
       font-family: sans-serif;
@@ -110,7 +119,7 @@ html{
       color: sienna;
       text-align: center;
   }
-  .quality img, .delivery img{
+  .quality img, .taste img, .shipping img{
       align-items: center;
       text-align: center;
   }
@@ -123,7 +132,7 @@ html{
       font-size: small;
       padding: 20px;
   }
-  .quality , .delivery{
+  .quality , .shipping, .taste{
       align-items: center;
   }
   .menu-color{
@@ -138,7 +147,7 @@ html{
   #menu h1{
       text-align: center;
       font-weight: bold;
-      font-size: 50px;
+      font-size: 60px;
   }
   
   #menu h2{

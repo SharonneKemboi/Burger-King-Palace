@@ -1,5 +1,5 @@
 # Burger-King-Palace
-#### This is a page of a burger restaurant website, {22/01/2022}
+#### This is a Burger – Restaurant  landing page, {22/01/2022}
 #### By **Sharonne Kemboi*
 ## Description
 This is a burger restaurant web page that shows the types of burger menu available and their prices , a brief description of their services such as delivery of food when ordered. It also shows their mobile applications and their contact details on social media.

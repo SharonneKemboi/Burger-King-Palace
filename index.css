@@ -47,7 +47,7 @@ html{
       display: block;
       margin: auto;
   }
-  #pound{
+  #intro{
       display: flex;
       justify-content: space-around;
   }

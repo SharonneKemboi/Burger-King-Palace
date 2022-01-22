@@ -187,49 +187,67 @@ html{
       margin: 20px;
   }
   
-  #more-info {
+  #offer {
       background-color: #E1EBE6;
       margin-top: 100px; 
-      padding: 50px;  
+      padding: 5px;  
       height: fit-content; 
   }
-  .yummy{
+  .delish{
       display: flex;
       float:right;
       
   }
-  .gold{
+  .big{
       float: right;
       position: relative; left:500px; top:180px;
   }
   
-  .bronze{
+  .small{
       color:#FFBE41;
   }
   
-  .yummy-text{
-       margin-left: 20px; 
+  .delish-text{
+       margin-left: 50px; 
        display: flex;
       justify-content: center;
       flex-direction: column;
       align-items: center; 
   }
   
-  .yummy-text h1{
+  .delish-text h1{
       font-size: 50px;
-      margin-top: 100px;
+      margin-top: 150px;
   }
-  
-  .dots{
-      font-size:100px;
-      padding: 60px;
-      display: flex;
-      justify-content: center;
+  .dots-wrapper{
+    flex:10px;
+    text-align: right;
+    }
+  .dots-wrapper{
+      font-size:60px;
+      padding: 30px;
+      display:inline-block;
+      justify-content: right;
       align-items: center;
   }
-  .dot{
-      margin-right: 10px;
+  
+    
+    
+    .dots-wrapper ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+      .dot-lists ul li{
+        list-style-position: inside;
+        padding:10px 30px;
+        text-align:right;
+        display:inline;
+        position: absolute;
+        
+        
   }
+  
   #communication{
       background-color:#F6B400; 
       height: 925px;

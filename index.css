@@ -25,11 +25,11 @@ html{
       justify-content: space-between;
       align-items: center;
   }
-  .nav-tab{
+  @media only screen and (max-width=100%){.nav-tab{
   flex:10px;
   text-align: right;
   color: #E1EBE6;
-  }
+  }}
   .nav-tab ul li{
   list-style: none;
   padding:10px 30px;
